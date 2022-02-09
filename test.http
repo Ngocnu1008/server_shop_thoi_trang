@@ -1,0 +1,20 @@
+POST http://localhost:5000/api/user/register
+Content-Type: application/json
+
+{
+    "name": "name1", 
+    "phone": "123456", 
+    "pw": "123456", 
+    "add": "d7"
+}
+
+###
+POST http://localhost:5000/api/user/login 
+Content-Type: application/json
+
+{
+    "info": {
+        "phone": "123456", 
+        "pw": "123456"
+    }
+}

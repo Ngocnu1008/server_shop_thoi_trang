@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "fashionshop full project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "reactjs"
+  ],
+  "author": "ngocnu",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.28.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "pg-promise": "^10.11.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
